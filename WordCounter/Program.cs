@@ -1,7 +1,5 @@
 using System;
 using WordCounter.Models;
-using System.Collections.Generic;
-using System.Linq;
 
 namespace WordCounter 
 {
@@ -60,6 +58,5 @@ namespace WordCounter
             Console.WriteLine($"The word '{word.Player.Word}' matches {word.CheckWordCounter()} times in the sentence '{word.Player.Sentence}'.");
             Console.WriteLine("\n─────────────────────────────────────────────────────────────────────");
         }
-    
     }
 }
