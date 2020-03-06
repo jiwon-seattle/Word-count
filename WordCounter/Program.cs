@@ -7,8 +7,8 @@ namespace WordCounter
     {   
         public static string userName;
         public static string userWord;
+        public static string initialSentence;
         public static string userSentence;
-        public 
         static void Main()
         {
             Console.WriteLine("~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~");
@@ -44,7 +44,7 @@ namespace WordCounter
             Console.WriteLine("Enter a word that you want to check!");
             userWord = Console.ReadLine().ToLower();
             Console.WriteLine("Enter a sentnece in which you want to see how frequently the word includes");
-            string initialSentence = Console.ReadLine().ToLower();
+            initialSentence = Console.ReadLine().ToLower();
             string SecondSenentece = initialSentence.Replace(",", "");
             userSentence = SecondSenentece.Replace(".", "");
             Result();
@@ -56,14 +56,9 @@ namespace WordCounter
             word.AssignWordSentence(userWord, userSentence);
             Console.WriteLine("\n─────────────────────────────────────────────────────────────────────");
             Console.ForegroundColor = ConsoleColor.Magenta;
-            Console.WriteLine($"                         {word.Player.Name}!");
-            Console.WriteLine($"The word '{word.Player.Word}' matches {word.CheckWordCounter()} times in the sentence '{word.Player.Sentence}'.");
+            Console.WriteLine($"                              {word.Player.Name}!");
+            Console.WriteLine($"The word '{userWord}' matches {word.CheckWordCounter()} times in the sentence '{initialSentence}'.");
             Console.WriteLine("\n─────────────────────────────────────────────────────────────────────");
-
-            for (int i =0; i <word.SentenceCheck.Length; i++)
-            {
-                Console.WriteLine(word.SentenceCheck[i]);
-            }
         }
     }
 }
