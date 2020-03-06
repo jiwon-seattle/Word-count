@@ -16,14 +16,14 @@ namespace WordCounter.Models
     {
       Player.Word = word;
       Player.Sentence = sentence;
-      SentenceByWord = sentence.Split(' ');
+      SentenceCheck = sentence.Split(' ');
     }
     public int CheckWordCounter()
     {
       ResultNumber = 0;
       for (int i = 0; i < SentenceCheck.Length; i ++)
       {
-        if(Player.Number == SentenceCheck)
+        if(Player.Word == SentenceCheck[i])
         {
           ResultNumber ++;
         }

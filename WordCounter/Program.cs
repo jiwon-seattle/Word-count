@@ -9,9 +9,9 @@ namespace WordCounter
     {
         static void Main()
         {
-            Console.WriteLine("Hello User. :) ")
+            Console.WriteLine("Hello User. :) ");
             Console.WriteLine("This application will check how many words in sentence provided appears!");
-            Console.WriteLine("A result will show a number that the words appears in the sentence.")
+            Console.WriteLine("A result will show a number that the words appears in the sentence.");
             PlayQuestion();
             
 
@@ -32,17 +32,20 @@ namespace WordCounter
             }
             else
             {
-                Console.WriteLine("Invalid input. Please provide right answer.")
+                Console.WriteLine("Invalid input. Please provide right answer.");
                 PlayQuestion();
             }
         }
         static void WordSentenceInput()
         {
+            Console.WriteLine("What id your name, user?");
+            string userName = Console.ReadLine();
             Console.WriteLine("Enter a word that you want to check!");
-            string word = Console.ReadLine().ToLower();
+            string userWord = Console.ReadLine().ToLower();
             Console.WriteLine("Enter a sentnece in which you want to see how frequently the word includes");
-            string sentence = Console.ReadLine().ToLower();
-            Word word = new Word(word, sentence);
+            string userSentence = Console.ReadLine().ToLower();
+            Word word = new Word(userName);
+            word.AssignWordSentence(userWord, userSentence);
             Console.WriteLine(word.CheckWordCounter());
             
         }
