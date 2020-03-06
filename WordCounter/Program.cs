@@ -13,9 +13,11 @@ namespace WordCounter
         public 
         static void Main()
         {
-            Console.WriteLine("Hello User. :) ");
+            Console.WriteLine("~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~");
+            Console.WriteLine("                            Hello User. :) ");
             Console.WriteLine("This application will check how many words in sentence provided appears!");
             Console.WriteLine("A result will show a number that the words appears in the sentence.");
+            Console.WriteLine("~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~");
             PlayQuestion();
             
         }
@@ -52,7 +54,11 @@ namespace WordCounter
         {
             Word word = new Word(userName);
             word.AssignWordSentence(userWord, userSentence);
-            Console.WriteLine($"{word.Player.Name}, the word '{word.Player.Word}' matches {word.CheckWordCounter()} times in the sentence '{word.Player.Sentence}'.");
+            Console.WriteLine("\n─────────────────────────────────────────────────────────────────────");
+            Console.ForegroundColor = ConsoleColor.Magenta;
+            Console.WriteLine($"                         {word.Player.Name}!");
+            Console.WriteLine($"The word '{word.Player.Word}' matches {word.CheckWordCounter()} times in the sentence '{word.Player.Sentence}'.");
+            Console.WriteLine("\n─────────────────────────────────────────────────────────────────────");
         }
     
     }
