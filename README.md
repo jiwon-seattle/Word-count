@@ -14,6 +14,7 @@
 | :-------------     | :------------- | :------------- |
 | **Program takes a word and sentence and checks how many times the word appears in the sentence** | A word: cat, A sentence: I brought my cat to the cat cafe for my cat making cat friends there. | 4 |
 | **Program only checks full word matches.** | A word: rain, A sentence: I want to buy a fancy raincoat | 0 |
+| **Program only checks words comprised of characters and ignores punctuation mark.** | A word: . , A sentence: Rainbow is over there.  | 0 |
 
 ## Setup/Installation Requirements
 
