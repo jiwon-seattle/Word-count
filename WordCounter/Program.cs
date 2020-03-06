@@ -9,36 +9,43 @@ namespace WordCounter
     {
         static void Main()
         {
-            Console.WriteLine("Enter a word that you want to check!");
-            string word = Console.ReadLine().ToLower();
-            Console.WriteLine("Enter a sentnece");
-            string sentence = Console.ReadLine().ToLower();
+            Console.WriteLine("Hello User. :) ")
+            Console.WriteLine("This application will check how many words in sentence provided appears!");
+            Console.WriteLine("A result will show a number that the words appears in the sentence.")
+            PlayQuestion();
+            
 
-
-            string[] sentenceByWord = sentence.Split(' ');
-
-            for (int i = 0; i <sentenceByWord.Length; i++)
+            
+        }
+        static void PlayQuestion()
+        {
+            Console.WriteLine("Would you like to play? Provide answer with format [Y for Yes / N for No]");
+            string playerAnswer = Console.ReadLine().ToLower();
+            if (playerAnswer == "y")
             {
-                if(word == sentenceByWord[i])
-                {
-                    Console.WriteLine("matching!");
-                }
-                else 
-                {
-                    Console.WriteLine("dismatch!");
-                }
+                WordSentenceInput();
             }
-
-
-            if (sentence.Contains(word))
+            else if (playerAnswer =="n")
             {
-                Console.WriteLine("hi");
+                Console.WriteLine("Good bye!");
+                Main();
             }
             else
             {
-                Console.WriteLine("Hello");
+                Console.WriteLine("Invalid input. Please provide right answer.")
+                PlayQuestion();
             }
-
         }
+        static void WordSentenceInput()
+        {
+            Console.WriteLine("Enter a word that you want to check!");
+            string word = Console.ReadLine().ToLower();
+            Console.WriteLine("Enter a sentnece in which you want to see how frequently the word includes");
+            string sentence = Console.ReadLine().ToLower();
+            Word word = new Word(word, sentence);
+            Console.WriteLine(word.CheckWordCounter());
+            
+        }
+    
     }
 }
