@@ -5846,11 +5846,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Jiwon Han\\desktop\\coding\\c#\\wordCounter\\wordCounter.Solution\\wordCounter.Tests\\WordCounter.Tests.csproj",
+      "projectUniqueName": "C:\\Users\\Jiwon Han\\desktop\\coding\\c#\\wordCounter\\WordCounter.Solution\\WordCounter.Tests\\WordCounter.Tests.csproj",
       "projectName": "WordCounter.Tests",
-      "projectPath": "C:\\Users\\Jiwon Han\\desktop\\coding\\c#\\wordCounter\\wordCounter.Solution\\wordCounter.Tests\\WordCounter.Tests.csproj",
+      "projectPath": "C:\\Users\\Jiwon Han\\desktop\\coding\\c#\\wordCounter\\WordCounter.Solution\\WordCounter.Tests\\WordCounter.Tests.csproj",
       "packagesPath": "C:\\Users\\Jiwon Han\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Jiwon Han\\desktop\\coding\\c#\\wordCounter\\wordCounter.Solution\\wordCounter.Tests\\obj\\",
+      "outputPath": "C:\\Users\\Jiwon Han\\desktop\\coding\\c#\\wordCounter\\WordCounter.Solution\\WordCounter.Tests\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -5867,8 +5867,8 @@
       "frameworks": {
         "netcoreapp2.2": {
           "projectReferences": {
-            "C:\\Users\\Jiwon Han\\desktop\\coding\\c#\\wordCounter\\wordCounter.Solution\\WordCounter\\WordCounter.csproj": {
-              "projectPath": "C:\\Users\\Jiwon Han\\desktop\\coding\\c#\\wordCounter\\wordCounter.Solution\\WordCounter\\WordCounter.csproj"
+            "C:\\Users\\Jiwon Han\\desktop\\coding\\c#\\wordCounter\\WordCounter.Solution\\WordCounter\\WordCounter.csproj": {
+              "projectPath": "C:\\Users\\Jiwon Han\\desktop\\coding\\c#\\wordCounter\\WordCounter.Solution\\WordCounter\\WordCounter.csproj"
             }
           }
         }
