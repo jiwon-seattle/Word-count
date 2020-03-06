@@ -6,7 +6,11 @@ using System.Linq;
 namespace WordCounter 
 {
     class Program
-    {
+    {   
+        public static string userName;
+        public static string userWord;
+        public static string userSentence;
+        public 
         static void Main()
         {
             Console.WriteLine("Hello User. :) ");
@@ -36,15 +40,19 @@ namespace WordCounter
         static void WordSentenceInput()
         {
             Console.WriteLine("What id your name, user?");
-            string userName = Console.ReadLine();
+            userName = Console.ReadLine();
             Console.WriteLine("Enter a word that you want to check!");
-            string userWord = Console.ReadLine().ToLower();
+            userWord = Console.ReadLine().ToLower();
             Console.WriteLine("Enter a sentnece in which you want to see how frequently the word includes");
-            string userSentence = Console.ReadLine().ToLower();
+            userSentence = Console.ReadLine().ToLower();
+            Result();
+            
+        }
+        static void Result()
+        {
             Word word = new Word(userName);
             word.AssignWordSentence(userWord, userSentence);
-            Console.WriteLine($"{userName}, the word '{userWord}' matches {word.CheckWordCounter()} times in the sentence '{userSentence}'.");
-            
+            Console.WriteLine($"{word.Player.Name}, the word '{word.Player.Word}' matches {word.CheckWordCounter()} times in the sentence '{word.Player.Sentence}'.");
         }
     
     }
