@@ -14,8 +14,6 @@ namespace WordCounter
             Console.WriteLine("A result will show a number that the words appears in the sentence.");
             PlayQuestion();
             
-
-            
         }
         static void PlayQuestion()
         {
@@ -28,7 +26,6 @@ namespace WordCounter
             else if (playerAnswer =="n")
             {
                 Console.WriteLine("Good bye!");
-                Main();
             }
             else
             {
@@ -46,7 +43,7 @@ namespace WordCounter
             string userSentence = Console.ReadLine().ToLower();
             Word word = new Word(userName);
             word.AssignWordSentence(userWord, userSentence);
-            Console.WriteLine(word.CheckWordCounter());
+            Console.WriteLine($"{userName}, the word '{userWord}' matches {word.CheckWordCounter()} times in the sentence '{userSentence}'.");
             
         }
     
