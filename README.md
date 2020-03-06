@@ -33,7 +33,7 @@ No known bugs at this time.
 
 ## Support and contact details
 
-Feel free to provide feedback via email: jiwon1.han@gmail.com.
+Email jiwon1.han@gmail.com with any questions, feedbacks, or concerns.
 
 ## Technologies Used
 
