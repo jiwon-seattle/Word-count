@@ -1,6 +1,6 @@
 # [Word Counter](https://github.com/jiwon-seattle/Word-count.git)
 
-#### C# Individual Project for Intermediate C# and Testing Exercise for [Epicodus](https://www.epicodus.com/), 03.06.2020
+#### C# Individual Project for Intermediate C# and Testing Exercise at [Epicodus](https://www.epicodus.com/), 03.06.2020
 
 #### By **Jiwon Han**
 
