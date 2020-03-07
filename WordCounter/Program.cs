@@ -9,6 +9,8 @@ namespace WordCounter
         public static string userWord;
         public static string initialSentence;
         public static string userSentence;
+        public static string[] Invalid_characters = new string[] {",", ".", "?", "!", ":", ";", "~", "@", "#", "$", "%", "^", "&", "*", "(", ")", "-", "_", "+", "=", "[", "]", "{", "}", "|", "`"};
+        
         static void Main()
         {
             Console.WriteLine("~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~");
@@ -21,20 +23,30 @@ namespace WordCounter
         }
         static void PlayQuestion()
         {
-            Console.WriteLine("Would you like to play? Provide answer with format [Y for Yes / N for No]");
-            string playerAnswer = Console.ReadLine().ToLower();
-            if (playerAnswer == "y")
+
+            bool validAnswer = false;
+
+            while(validAnswer == false)
             {
-                WordSentenceInput();
-            }
-            else if (playerAnswer =="n")
-            {
-                Console.WriteLine("Good bye!");
-            }
-            else
-            {
-                Console.WriteLine("Invalid input. Please provide right answer.");
-                PlayQuestion();
+                Console.WriteLine("Would you like to play? Provide answer with format [Y for Yes / N for No]");
+                string playerAnswer = Console.ReadLine().ToLower();
+
+                if (playerAnswer == "y")
+                {
+                    WordSentenceInput();
+                    validAnswer = true;
+                }
+                else if (playerAnswer == "n")
+                {
+                    Console.WriteLine("Good bye!");
+                    validAnswer = true;
+                }
+                else 
+                {
+                    Console.WriteLine("Invalid input. Please provide right answer.");
+                    PlayQuestion();
+                    validAnswer = false;
+                }
             }
         }
         static void WordSentenceInput()
@@ -45,7 +57,14 @@ namespace WordCounter
             userWord = Console.ReadLine().ToLower().Trim();
             Console.WriteLine("Enter a sentnece in which you want to see how frequently the word includes");
             initialSentence = Console.ReadLine().ToLower().Trim();
-            userSentence = initialSentence.Replace(",", "").Replace(".", "").Replace("?","").Replace("!", "").Replace(";","").Replace(":","").Replace("~","");
+
+            userSentence = initialSentence;
+
+            foreach (string invalid_char in Invalid_characters)
+            {
+                userSentence = userSentence.Replace(invalid_char, "");
+            }
+
             Result();
             
         }
@@ -55,7 +74,7 @@ namespace WordCounter
             word.AssignWordSentence(userWord, userSentence);
             Console.WriteLine("\n─────────────────────────────────────────────────────────────────────");
             Console.ForegroundColor = ConsoleColor.Magenta;
-            Console.WriteLine($"                              {word.Player.Name}!");
+            Console.WriteLine($"                              {word.PlayerName}!");
             Console.WriteLine($"The word '{userWord}' matches {word.CheckWordCounter()} times in the sentence '{initialSentence}'.");
             Console.WriteLine("\n─────────────────────────────────────────────────────────────────────");
         }
