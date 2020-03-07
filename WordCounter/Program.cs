@@ -42,11 +42,10 @@ namespace WordCounter
             Console.WriteLine("What id your name, user?");
             userName = Console.ReadLine();
             Console.WriteLine("Enter a word that you want to check!");
-            userWord = Console.ReadLine().ToLower();
+            userWord = Console.ReadLine().ToLower().Trim();
             Console.WriteLine("Enter a sentnece in which you want to see how frequently the word includes");
-            initialSentence = Console.ReadLine().ToLower();
-            string SecondSenentece = initialSentence.Replace(",", "");
-            userSentence = SecondSenentece.Replace(".", "");
+            initialSentence = Console.ReadLine().ToLower().Trim();
+            userSentence = initialSentence.Replace(",", "").Replace(".", "").Replace("?","").Replace("!", "").Replace(";","").Replace(":","").Replace("~","");
             Result();
             
         }
