@@ -9,3 +9,14 @@ C:\Users\Jiwon Han\desktop\coding\c#\wordCounter\wordCounter.Solution\WordCounte
 C:\Users\Jiwon Han\desktop\coding\c#\wordCounter\wordCounter.Solution\WordCounter\obj\Debug\netcoreapp2.2\WordCounter.pdb
 C:\Users\Jiwon Han\desktop\coding\c#\wordCounter\wordCounter.Solution\WordCounter\bin\Debug\netcoreapp2.2\WordCounter.runtimeconfig.json
 C:\Users\Jiwon Han\desktop\coding\c#\wordCounter\wordCounter.Solution\WordCounter\bin\Debug\netcoreapp2.2\WordCounter.runtimeconfig.dev.json
+C:\Users\Jiwon Han\desktop\coding\c#-project\wordCounter\wordCounter.Solution\WordCounter\bin\Debug\netcoreapp2.2\WordCounter.deps.json
+C:\Users\Jiwon Han\desktop\coding\c#-project\wordCounter\wordCounter.Solution\WordCounter\bin\Debug\netcoreapp2.2\WordCounter.runtimeconfig.json
+C:\Users\Jiwon Han\desktop\coding\c#-project\wordCounter\wordCounter.Solution\WordCounter\bin\Debug\netcoreapp2.2\WordCounter.runtimeconfig.dev.json
+C:\Users\Jiwon Han\desktop\coding\c#-project\wordCounter\wordCounter.Solution\WordCounter\bin\Debug\netcoreapp2.2\WordCounter.dll
+C:\Users\Jiwon Han\desktop\coding\c#-project\wordCounter\wordCounter.Solution\WordCounter\bin\Debug\netcoreapp2.2\WordCounter.pdb
+C:\Users\Jiwon Han\desktop\coding\c#-project\wordCounter\wordCounter.Solution\WordCounter\obj\Debug\netcoreapp2.2\WordCounter.csprojAssemblyReference.cache
+C:\Users\Jiwon Han\desktop\coding\c#-project\wordCounter\wordCounter.Solution\WordCounter\obj\Debug\netcoreapp2.2\WordCounter.csproj.CoreCompileInputs.cache
+C:\Users\Jiwon Han\desktop\coding\c#-project\wordCounter\wordCounter.Solution\WordCounter\obj\Debug\netcoreapp2.2\WordCounter.AssemblyInfoInputs.cache
+C:\Users\Jiwon Han\desktop\coding\c#-project\wordCounter\wordCounter.Solution\WordCounter\obj\Debug\netcoreapp2.2\WordCounter.AssemblyInfo.cs
+C:\Users\Jiwon Han\desktop\coding\c#-project\wordCounter\wordCounter.Solution\WordCounter\obj\Debug\netcoreapp2.2\WordCounter.dll
+C:\Users\Jiwon Han\desktop\coding\c#-project\wordCounter\wordCounter.Solution\WordCounter\obj\Debug\netcoreapp2.2\WordCounter.pdb

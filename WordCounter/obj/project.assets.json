@@ -692,11 +692,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Jiwon Han\\desktop\\coding\\c#\\wordCounter\\wordCounter.Solution\\WordCounter\\wordCounter.csproj",
-      "projectName": "wordCounter",
-      "projectPath": "C:\\Users\\Jiwon Han\\desktop\\coding\\c#\\wordCounter\\wordCounter.Solution\\WordCounter\\wordCounter.csproj",
+      "projectUniqueName": "c:\\Users\\Jiwon Han\\desktop\\coding\\c#-project\\wordCounter\\wordCounter.Solution\\WordCounter\\WordCounter.csproj",
+      "projectName": "WordCounter",
+      "projectPath": "c:\\Users\\Jiwon Han\\desktop\\coding\\c#-project\\wordCounter\\wordCounter.Solution\\WordCounter\\WordCounter.csproj",
       "packagesPath": "C:\\Users\\Jiwon Han\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Jiwon Han\\desktop\\coding\\c#\\wordCounter\\wordCounter.Solution\\WordCounter\\obj\\",
+      "outputPath": "c:\\Users\\Jiwon Han\\desktop\\coding\\c#-project\\wordCounter\\wordCounter.Solution\\WordCounter\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

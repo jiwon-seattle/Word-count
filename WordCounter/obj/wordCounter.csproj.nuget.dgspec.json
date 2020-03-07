@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Jiwon Han\\desktop\\coding\\c#\\wordCounter\\WordCounter.Solution\\WordCounter\\WordCounter.csproj": {}
+    "C:\\Users\\Jiwon Han\\desktop\\coding\\c#-project\\wordCounter\\wordCounter.Solution\\WordCounter\\WordCounter.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Jiwon Han\\desktop\\coding\\c#\\wordCounter\\WordCounter.Solution\\WordCounter\\WordCounter.csproj": {
+    "C:\\Users\\Jiwon Han\\desktop\\coding\\c#-project\\wordCounter\\wordCounter.Solution\\WordCounter\\WordCounter.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Jiwon Han\\desktop\\coding\\c#\\wordCounter\\WordCounter.Solution\\WordCounter\\WordCounter.csproj",
+        "projectUniqueName": "C:\\Users\\Jiwon Han\\desktop\\coding\\c#-project\\wordCounter\\wordCounter.Solution\\WordCounter\\WordCounter.csproj",
         "projectName": "WordCounter",
-        "projectPath": "C:\\Users\\Jiwon Han\\desktop\\coding\\c#\\wordCounter\\WordCounter.Solution\\WordCounter\\WordCounter.csproj",
+        "projectPath": "C:\\Users\\Jiwon Han\\desktop\\coding\\c#-project\\wordCounter\\wordCounter.Solution\\WordCounter\\WordCounter.csproj",
         "packagesPath": "C:\\Users\\Jiwon Han\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Jiwon Han\\desktop\\coding\\c#\\wordCounter\\WordCounter.Solution\\WordCounter\\obj\\",
+        "outputPath": "C:\\Users\\Jiwon Han\\desktop\\coding\\c#-project\\wordCounter\\wordCounter.Solution\\WordCounter\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
