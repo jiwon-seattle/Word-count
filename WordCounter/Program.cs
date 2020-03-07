@@ -51,7 +51,7 @@ namespace WordCounter
         }
         static void WordSentenceInput()
         {
-            Console.WriteLine("What id your name, user?");
+            Console.WriteLine("What is your name, user?");
             userName = Console.ReadLine();
             Console.WriteLine("Enter a word that you want to check!");
             userWord = Console.ReadLine().ToLower().Trim();
